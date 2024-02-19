@@ -7,7 +7,7 @@ pipelineJob('temp') {
 
     definition {
         cps {
-            script(readFileFromWorkspace('pipelines/temp.Jenkinsfile'))
+            script(readFileFromWorkspace('pipelines/temp.jenkinsfile'))
             sandbox()
         }
     }
