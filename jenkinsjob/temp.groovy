@@ -3,6 +3,7 @@ pipelineJob('temp') {
 
     parameters {
         stringParam(parameterName="name", defaultValue="Aniket", description="your name")
+        stringParam(parameterName="name2", defaultValue="2nd param", description="2nd param description goes here")
     }
 
     definition {
